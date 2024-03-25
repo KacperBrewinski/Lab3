@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Student</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <div class="nav-panel">
+    <a href="/">Home</a>
+    <a href="/student">Student</a>
+    <a href="/add-student">Add Student</a>
+    <a href="/users">Users</a>
+  </div>
+  <h1>Dodawanie studenta</h1>
+  <form action="/add-student" method="post">
+    <label for="firstName">Imię:</label>
+    <input type="text" id="firstName" name="firstName"><br>
+    <label for="lastName">Nazwisko:</label>
+    <input type="text" id="lastName" name="lastName"><br>
+    <label for="major">Kierunek:</label>
+    <input type="text" id="major" name="major"><br>
+    <button type="submit">Dodaj studenta</button>
+  </form>
+</body>
+</html>

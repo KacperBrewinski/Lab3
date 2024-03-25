@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav-panel {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .nav-panel a {
+    color: blue;
+    text-decoration: none;
+  }
+  
